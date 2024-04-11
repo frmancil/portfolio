@@ -1,9 +1,9 @@
 import About from "./components/About";
-import Contact from "./components/Contact";
-import Hero from "./components/Hero";
+import Resources from "./components/Resources";
+import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Portfolio from "./components/Portfolio";
+import Work from "./components/Work";
 
 function App() {
   return (
@@ -11,11 +11,11 @@ function App() {
       <div>
         <Navbar/>
         <Routes>
-          <Route index element={<Hero/>}></Route>
-          <Route path="/Hero" element={<Hero/>}></Route>
+          <Route index element={<Home/>}></Route>
+          <Route path="/Home" element={<Home/>}></Route>
           <Route path="/About" element={<About/>}></Route>
-          <Route path="/Portfolio" element={<Portfolio/>}></Route>
-          <Route path="/Contact" element={<Contact/>}></Route>
+          <Route path="/Work" element={<Work/>}></Route>
+          <Route path="/Resources" element={<Resources/>}></Route>
         </Routes>
       </div>
     </BrowserRouter>

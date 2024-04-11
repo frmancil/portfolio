@@ -14,14 +14,14 @@ const Navbar = () => {
         <div class="flex items-center justify-between h-16 lg:h-20 bg-[#223]/30 rounded-b-3xl shadow-lg px-4">
 
                 <div class="text-white text-xl sm:text-2xl">
-                    <a href='#' className='font-bold'><span>John Doe</span></a>
+                    <a className='font-bold'><span>Francisco's Page</span></a>
                 </div>
 
                 <ul class="text-gray-700 font-medium hidden lg:flex lg:items-center lg:justify-center lg:space-x-10 text-2xl">
-                   <li className='p-2'><NavLink to="/hero" activeClassName="selected">Home</NavLink></li>
-                   <li className='p-2'><NavLink to="/about" activeClassName="text-black">About</NavLink></li>
-                   <li className='p-2'><NavLink to="/portfolio" activeClassName="text-black">Portfolio</NavLink></li>
-                   <li className='p-2'><NavLink to="/contact" activeClassName="text-black">Contact</NavLink></li> 
+                   <li className='p-2'><NavLink to="/home" activeClassName="selected">Home</NavLink></li>
+                   <li className='p-2'><NavLink to="/about" activeClassName="text-black">Skills</NavLink></li>
+                   <li className='p-2'><NavLink to="/work" activeClassName="text-black">Work</NavLink></li>
+                   <li className='p-2'><NavLink to="/resources" activeClassName="text-black">Resources</NavLink></li> 
                 </ul>
 
 

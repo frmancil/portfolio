@@ -1,31 +1,20 @@
 import React from 'react'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
-import profilepic from '../assets/profilepicB.png'
-import notebookL from '../assets/notebookL.png'
 import notebookM from '../assets/notebookM.png'
 
 
-const Hero = () => {
+const Home = () => {
   return (
     <div class="relative pt-16 pb-10 sm:pt-16 sm:pb-16 lg:pb-16 overflow-hidden h-[92v]">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 relative z-20">
             <div class="max-w-xl mx-auto text-center">
                 <h1 class="text-4xl font-bold sm:text-6xl gray-primary-color">
-                    I will solve your frontend
+                    Francisco's Personal Page
                 </h1>
 
                 <p class="mt-5 text-base text-white sm:text-xl">
-                    Don't hesitate to contact me!
+                    Feel free to check my projects and social networks
                 </p>
-
-                <div>
-                    <a href="#" title='' class="shadow-2xl mr-4 inline-flex items-center px-6 py-4 mt-8 font-semibold text-white bg-primary-color rounded-lg transition-all duration-200 hover:scale-110" role='button'>
-                        CV
-                    </a>
-                    <a href="#" title='' class="inline-flex items-center px-6 py-4 mt-8 font-semibold text-white border rounded-lg transition-all duration-200 hover:scale-110" role='button'>
-                        View Work
-                    </a>
-                </div>
 
             </div>
         </div>
@@ -45,4 +34,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Home

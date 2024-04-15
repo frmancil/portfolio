@@ -3,4 +3,4 @@ WORKDIR /Mancilla_Francisco_final_site
 COPY package.json ./
 RUN npm install
 COPY . .
-CMD ["npm", "run"]
+CMD ["npm", "start"]

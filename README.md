@@ -10,7 +10,7 @@ docker build -t portfolio3:latest .
 
 Step 3. Once the process is finished, use this command:
 
-docker run --name assignment -d -p 5575:6006 portfolio3:latest
+docker run --name assignment -d -p 5575:3000 portfolio3:latest
 
 It will create a container with the image already created, and deployed in localhost:5575 (supposedly).
 
